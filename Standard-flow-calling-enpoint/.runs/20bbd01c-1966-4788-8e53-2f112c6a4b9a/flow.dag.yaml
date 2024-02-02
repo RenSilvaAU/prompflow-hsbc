@@ -1,0 +1,22 @@
+id: template_standard_flow
+name: Template Standard Flow
+inputs:
+  question:
+    type: string
+    is_chat_input: false
+outputs:
+  answer:
+    type: string
+    reference: ${call_service.output}
+nodes:
+- name: call_service
+  type: python
+  source:
+    type: code
+    path: echo.py
+  inputs:
+    question: ${inputs.question}
+  use_variants: false
+node_variants: {}
+environment:
+  python_requirements_txt: requirements.txt

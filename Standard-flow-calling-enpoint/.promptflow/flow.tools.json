@@ -1,0 +1,27 @@
+{
+  "package": {},
+  "code": {
+    "echo.py": {
+      "name": "echo.py",
+      "type": "python",
+      "inputs": {
+        "question": {
+          "type": [
+            "string"
+          ],
+          "allow_manual_entry": false,
+          "is_multi_select": false,
+          "input_type": "default",
+          "value": "${inputs.question}",
+          "id": "ou4t1edt"
+        }
+      },
+      "source": "echo.py",
+      "function": "call_service",
+      "is_builtin": false,
+      "enable_kwargs": false,
+      "tool_state": "stable",
+      "toolId": "echo.py"
+    }
+  }
+}

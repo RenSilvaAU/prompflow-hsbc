@@ -1,0 +1,40 @@
+{
+  "package": {},
+  "code": {
+    "line_process.py": {
+      "type": "python",
+      "inputs": {
+        "groundtruth": {
+          "type": [
+            "string"
+          ]
+        },
+        "prediction": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "function": "line_process",
+      "is_builtin": false,
+      "name": "line_process.py",
+      "source": "line_process.py",
+      "toolId": "line_process.py"
+    },
+    "aggregate.py": {
+      "type": "python",
+      "inputs": {
+        "processed_results": {
+          "type": [
+            "object"
+          ]
+        }
+      },
+      "function": "aggregate",
+      "is_builtin": false,
+      "name": "aggregate.py",
+      "source": "aggregate.py",
+      "toolId": "aggregate.py"
+    }
+  }
+}

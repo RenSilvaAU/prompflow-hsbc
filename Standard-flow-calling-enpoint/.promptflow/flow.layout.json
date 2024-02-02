@@ -1,0 +1,31 @@
+{
+  "orientation": "Vertical",
+  "nodeLayouts": {
+    "inputs": {
+      "x": 12,
+      "y": 127,
+      "index": -1
+    },
+    "outputs": {
+      "x": 12,
+      "y": 67,
+      "index": -1
+    },
+    "call_service": {
+      "x": 12,
+      "y": 237,
+      "height": 75,
+      "index": 0
+    }
+  },
+  "viewport": {
+    "transformMatrix": [
+      1,
+      0,
+      0,
+      1,
+      140.51171875,
+      48
+    ]
+  }
+}
